@@ -1,0 +1,97 @@
+.z-10 {
+  z-index: 10; }
+
+.mainheader .navbar-brand {
+  max-width: 120px; }
+  .mainheader .navbar-brand img {
+    width: 100%; }
+
+.mainheader .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: #fff; }
+
+.mainheader .navbar-nav .nav-item.active .nav-link, .mainheader .navbar-nav .nav-item:hover .nav-link, .mainheader .navbar-nav .nav-item:focus .nav-link {
+  color: orange;
+  border-bottom: 2px solid orange; }
+
+#showcase .carousel-item {
+  height: 400px; }
+  #showcase .carousel-item > img {
+    height: 100%;
+    object-fit: cover; }
+
+#showcase .carousel-caption {
+  top: 20% !important; }
+
+#showcase .carousel p {
+  text-shadow: 7px 5px 6px #000001; }
+
+.getting-started {
+  min-height: 200px;
+  background-image: url(../images/lights.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  .getting-started::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.footer {
+  background-color: #000; }
+
+.video {
+  background-image: url(../images/media.jpg);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  .video::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.gallery-img-link {
+  display: inline-block;
+  width: 100%;
+  height: 300px; }
+  .gallery-img-link > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
+.img-circle {
+  height: 400px;
+  width: 400px; }
+  .img-circle > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.testimonials .owl-nav {
+  position: absolute;
+  top: 20%;
+  left: -5%;
+  width: 110%;
+  display: flex;
+  justify-content: space-between; }
+
+.testimonials p {
+  text-align: justify; }
+
+.faq .card {
+  background-color: transparent; }
+  .faq .card-header .btn-link {
+    color: #fff; }

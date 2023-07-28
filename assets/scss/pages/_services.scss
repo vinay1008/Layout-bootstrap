@@ -1,0 +1,10 @@
+.faq{
+    .card{
+        background-color: transparent;
+        &-header{
+            .btn-link{
+                color: $color-white;
+            }
+        }
+    }
+}
