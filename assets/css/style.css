@@ -95,3 +95,11 @@
   background-color: transparent; }
   .faq .card-header .btn-link {
     color: #fff; }
+
+.card-columns .card .card-header {
+  height: 400px;
+  width: 355px; }
+  .card-columns .card .card-header .img-fluid {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
